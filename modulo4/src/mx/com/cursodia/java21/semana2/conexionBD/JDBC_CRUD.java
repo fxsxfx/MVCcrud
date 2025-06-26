@@ -25,9 +25,9 @@ public class JDBC_CRUD
 	
 	private void conectar() 
 	{
-		String server = "jdbc:mysql://localhost/puntotelcel";
-		String user = "root";//remover despues
-		String password = "";
+		String server = "address";
+		String user = "user";
+		String password = "pass";
 		
 		try {
 			con = DriverManager.getConnection(server, user, password);
