@@ -9,9 +9,9 @@ public class DBConnection
 	private static DBConnection instance;
 	private Connection con;
 	
-	private final String server = "jdbc:mysql://localhost/tiendatelcel";
-	private final String user = "root";
-	private final String password = "";
+	private final String server = "address";
+	private final String user = "user";
+	private final String password = "pass";
 	
 	private DBConnection()
 	{

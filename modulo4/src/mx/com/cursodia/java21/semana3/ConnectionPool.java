@@ -12,9 +12,9 @@ public class ConnectionPool
 	
 	static {
 		HikariConfig config = new HikariConfig();
-		config.setJdbcUrl("jdbc:mysql://localhost/tiendatelcel");
-		config.setUsername("root");
-		config.setPassword("");
+		config.setJdbcUrl("address");
+		config.setUsername("user");
+		config.setPassword("pass");
 		config.setMaximumPoolSize(10);
 		config.setMinimumIdle(3);
 		config.setMaxLifetime(90000);
